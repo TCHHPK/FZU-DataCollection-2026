@@ -1,0 +1,148 @@
+=======================================================
+作业6：多线程商城商品图片爬虫
+学号：102402116
+关键词：书包
+爬取页码：1～6
+目标图片数：116
+下载线程数：4
+=======================================================
+[页面] 正在访问第 1 页：https://search.dangdang.com/?key=%CA%E9%B0%FC&act=input&page_index=1&page_size=60
+[页面] 第 1 页解析到 60 张商品图片
+[页面] 正在访问第 2 页：https://search.dangdang.com/?key=%CA%E9%B0%FC&act=input&page_index=2&page_size=60
+[页面] 第 2 页解析到 60 张商品图片
+[页面] 正在访问第 3 页：https://search.dangdang.com/?key=%CA%E9%B0%FC&act=input&page_index=3&page_size=60
+[页面] 第 3 页解析到 60 张商品图片
+[页面] 正在访问第 4 页：https://search.dangdang.com/?key=%CA%E9%B0%FC&act=input&page_index=4&page_size=60
+[页面] 第 4 页解析到 60 张商品图片
+[页面] 正在访问第 5 页：https://search.dangdang.com/?key=%CA%E9%B0%FC&act=input&page_index=5&page_size=60
+[页面] 第 5 页解析到 60 张商品图片
+[页面] 正在访问第 6 页：https://search.dangdang.com/?key=%CA%E9%B0%FC&act=input&page_index=6&page_size=60
+[页面] 第 6 页解析到 60 张商品图片
+
+共找到 360 张不重复商品图片
+[成功] product_001.jpg
+[成功] product_002.jpg
+[成功] product_003.jpg
+[成功] product_004.jpg
+[成功] product_005.jpg
+[成功] product_007.jpg
+[成功] product_008.jpg
+[成功] product_006.jpg
+[成功] product_011.jpg
+[成功] product_009.jpg
+[成功] product_013.jpg
+[成功] product_014.jpg
+[成功] product_010.jpg
+[成功] product_016.jpg
+[成功] product_015.jpg
+[成功] product_017.jpg
+[成功] product_020.jpg
+[成功] product_018.jpg
+[成功] product_021.jpg
+[成功] product_023.jpg
+[成功] product_012.jpg
+[成功] product_022.jpg
+[成功] product_025.jpg
+[成功] product_019.jpg
+[成功] product_028.jpg
+[成功] product_029.jpg
+[成功] product_024.jpg
+[成功] product_026.jpg
+[成功] product_027.jpg
+[成功] product_030.jpg
+[成功] product_032.jpg
+[成功] product_034.jpg
+[成功] product_031.jpg
+[成功] product_035.jpg
+[成功] product_033.jpg
+[成功] product_036.jpg
+[成功] product_038.jpg
+[成功] product_039.jpg
+[成功] product_041.jpg
+[成功] product_042.jpg
+[成功] product_040.jpg
+[成功] product_043.jpg
+[成功] product_044.jpg
+[成功] product_045.jpg
+[成功] product_047.jpg
+[成功] product_046.jpg
+[成功] product_037.jpg
+[成功] product_049.jpg
+[成功] product_050.jpg
+[成功] product_051.jpg
+[成功] product_048.jpg
+[成功] product_052.jpg
+[成功] product_055.jpg
+[成功] product_056.jpg
+[成功] product_053.jpg
+[成功] product_057.jpg
+[成功] product_058.jpg
+[成功] product_060.jpg
+[成功] product_061.jpg
+[成功] product_054.jpg
+[成功] product_059.jpg
+[成功] product_065.jpg
+[成功] product_064.jpg
+[成功] product_066.jpg
+[成功] product_068.jpg
+[成功] product_069.jpg
+[成功] product_070.jpg
+[成功] product_063.jpg
+[成功] product_062.jpg
+[成功] product_073.jpg
+[成功] product_067.jpg
+[成功] product_071.jpg
+[成功] product_075.jpg
+[成功] product_072.jpg
+[成功] product_074.jpg
+[成功] product_077.jpg
+[成功] product_076.jpg
+[成功] product_078.jpg
+[成功] product_082.jpg
+[成功] product_079.jpg
+[成功] product_083.jpg
+[成功] product_081.jpg
+[成功] product_080.jpg
+[成功] product_087.jpg
+[成功] product_084.jpg
+[成功] product_089.jpg
+[成功] product_085.jpg
+[成功] product_090.jpg
+[成功] product_086.jpg
+[成功] product_092.jpg
+[成功] product_093.jpg
+[成功] product_094.jpg
+[成功] product_095.jpg
+[成功] product_097.jpg
+[成功] product_091.jpg
+[成功] product_088.jpg
+[成功] product_098.jpg
+[成功] product_100.jpg
+[成功] product_096.jpg
+[成功] product_102.jpg
+[成功] product_103.jpg
+[成功] product_104.jpg
+[成功] product_099.jpg
+[成功] product_101.jpg
+[成功] product_108.jpg
+[成功] product_106.jpg
+[成功] product_107.jpg
+[成功] product_110.jpg
+[成功] product_111.jpg
+[成功] product_112.jpg
+[成功] product_113.jpg
+[成功] product_115.jpg
+[成功] product_116.jpg
+[成功] product_114.jpg
+[成功] product_109.jpg
+[成功] product_105.jpg
+
+=======================================================
+多线程爬取结束
+已访问页数：6
+图片候选数：360
+成功下载数：116
+目标图片数：116
+运行耗时：16.34 秒
+图片保存路径：/Users/caijingxi/第06次作业/data/images
+=======================================================

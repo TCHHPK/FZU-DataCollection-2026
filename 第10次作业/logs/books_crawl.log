@@ -1,0 +1,142 @@
+2026-10-25 07:59:14 [scrapy.utils.log] INFO: Scrapy 2.19.0 started (bot: shop_crawler)
+2026-10-25 07:59:14 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.1.3',
+ 'libxml2': '2.15.4',
+ 'cssselect': '1.6.0',
+ 'parsel': '1.11.0',
+ 'w3lib': '2.5.0',
+ 'Twisted': '26.4.0',
+ 'Python': '3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]',
+ 'pyOpenSSL': '26.4.0 (OpenSSL 3.6.5 29 Sep 2026)',
+ 'cryptography': '50.0.2',
+ 'Platform': 'macOS-15.7.4-arm64-arm-64bit'}
+2026-10-25 07:59:14 [scrapy.addons] INFO: Enabled addons:
+[]
+2026-10-25 07:59:14 [scrapy.extensions.telnet] INFO: Telnet Password: 28c7057c306d2044
+2026-10-25 07:59:14 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logcount.LogCount',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.remote_control.RemoteControl']
+2026-10-25 07:59:14 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'shop_crawler',
+ 'CLOSESPIDER_ITEMCOUNT': 116,
+ 'CONCURRENT_REQUESTS': 1,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 0.3,
+ 'FEED_EXPORT_ENCODING': 'utf-8-sig',
+ 'HTTPPROXY_ENABLED': False,
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'shop_crawler.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['shop_crawler.spiders']}
+2026-10-25 07:59:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2026-10-25 07:59:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware',
+ 'scrapy.spidermiddlewares.metacopy.MetaCopyDetectionMiddleware']
+2026-10-25 07:59:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2026-10-25 07:59:14 [scrapy.core.engine] INFO: Spider opened
+2026-10-25 07:59:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-10-25 07:59:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-10-25 07:59:14 [scrapy.extensions.remote_control] INFO: Remote control HTTP server listening on port 51049 (job 2457-eabc9f0f4f6b41a4888a0826a0c776b4)
+2026-10-25 07:59:15 [books] INFO: 正在分析第 6 页，商品数量：20
+2026-10-25 07:59:16 [books] INFO: 正在分析第 7 页，商品数量：20
+2026-10-25 07:59:16 [books] INFO: 正在分析第 8 页，商品数量：20
+2026-10-25 07:59:17 [books] INFO: 正在分析第 9 页，商品数量：20
+2026-10-25 07:59:18 [books] INFO: 正在分析第 10 页，商品数量：20
+2026-10-25 07:59:19 [books] INFO: 正在分析第 11 页，商品数量：20
+2026-10-25 07:59:20 [books] INFO: 正在分析第 12 页，商品数量：20
+2026-10-25 07:59:20 [books] INFO: 正在分析第 13 页，商品数量：20
+2026-10-25 07:59:21 [books] INFO: 正在分析第 14 页，商品数量：20
+2026-10-25 07:59:22 [books] INFO: 正在分析第 15 页，商品数量：20
+2026-10-25 07:59:23 [books] INFO: 正在分析第 16 页，商品数量：20
+2026-10-25 07:59:23 [books] INFO: 正在分析第 17 页，商品数量：20
+2026-10-25 07:59:24 [books] INFO: 正在分析第 18 页，商品数量：20
+2026-10-25 07:59:25 [books] INFO: 正在分析第 19 页，商品数量：20
+2026-10-25 07:59:26 [books] INFO: 正在分析第 20 页，商品数量：20
+2026-10-25 07:59:27 [books] INFO: 正在分析第 21 页，商品数量：20
+2026-10-25 07:59:28 [books] INFO: 正在分析第 22 页，商品数量：20
+2026-10-25 07:59:28 [books] INFO: 正在分析第 23 页，商品数量：20
+2026-10-25 07:59:29 [books] INFO: 正在分析第 24 页，商品数量：20
+2026-10-25 07:59:30 [books] INFO: 正在分析第 25 页，商品数量：20
+2026-10-25 07:59:31 [books] INFO: 正在分析第 26 页，商品数量：20
+2026-10-25 07:59:32 [books] INFO: 正在分析第 27 页，商品数量：20
+2026-10-25 07:59:32 [books] INFO: 正在分析第 28 页，商品数量：20
+2026-10-25 07:59:33 [books] INFO: 正在分析第 29 页，商品数量：20
+2026-10-25 07:59:34 [books] INFO: 正在分析第 30 页，商品数量：20
+2026-10-25 07:59:35 [books] INFO: 正在分析第 31 页，商品数量：20
+2026-10-25 07:59:35 [books] INFO: 正在分析第 32 页，商品数量：20
+2026-10-25 07:59:36 [books] INFO: 正在分析第 33 页，商品数量：20
+2026-10-25 07:59:37 [books] INFO: 正在分析第 34 页，商品数量：20
+2026-10-25 07:59:38 [books] INFO: 正在分析第 35 页，商品数量：20
+2026-10-25 07:59:38 [books] INFO: 正在分析第 36 页，商品数量：20
+2026-10-25 07:59:39 [books] INFO: 正在分析第 37 页，商品数量：20
+2026-10-25 07:59:40 [books] INFO: 正在分析第 38 页，商品数量：20
+2026-10-25 07:59:41 [books] INFO: 正在分析第 39 页，商品数量：20
+2026-10-25 07:59:41 [books] INFO: 正在分析第 40 页，商品数量：20
+2026-10-25 07:59:42 [books] INFO: 正在分析第 41 页，商品数量：20
+2026-10-25 07:59:43 [books] INFO: 正在分析第 42 页，商品数量：20
+2026-10-25 07:59:43 [books] INFO: 正在分析第 43 页，商品数量：20
+2026-10-25 07:59:44 [books] INFO: 正在分析第 44 页，商品数量：20
+2026-10-25 07:59:45 [books] INFO: 正在分析第 45 页，商品数量：20
+2026-10-25 07:59:46 [books] INFO: 正在分析第 46 页，商品数量：20
+2026-10-25 07:59:46 [books] INFO: 正在分析第 47 页，商品数量：20
+2026-10-25 07:59:47 [books] INFO: 正在分析第 48 页，商品数量：20
+2026-10-25 07:59:48 [books] INFO: 正在分析第 49 页，商品数量：20
+2026-10-25 07:59:49 [books] INFO: 正在分析第 50 页，商品数量：20
+2026-10-25 08:00:14 [scrapy.extensions.logstats] INFO: Crawled 152 pages (at 152 pages/min), scraped 106 items (at 106 items/min)
+2026-10-25 08:00:18 [scrapy.core.engine] INFO: Closing spider (closespider_itemcount)
+2026-10-25 08:00:18 [scrapy.extensions.feedexport] INFO: Stored csv feed (117 items) in: ../../data/books_116.csv
+2026-10-25 08:00:18 [scrapy.extensions.feedexport] INFO: Stored json feed (117 items) in: ../../data/books_116.json
+2026-10-25 08:00:18 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 55569,
+ 'downloader/request_count': 163,
+ 'downloader/request_method_count/GET': 163,
+ 'downloader/response_bytes': 700364,
+ 'downloader/response_count': 163,
+ 'downloader/response_status_count/200': 162,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 64.112881625,
+ 'feedexport/success_count/FileFeedStorage': 2,
+ 'finish_reason': 'closespider_itemcount',
+ 'finish_time': datetime.datetime(2026, 10, 25, 0, 0, 18, 378389, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 4561317,
+ 'httpcompression/response_count': 163,
+ 'item_scraped_count': 117,
+ 'items_per_minute': 109.6875,
+ 'log_count/INFO': 50,
+ 'memusage/max': 95748096,
+ 'memusage/startup': 78381056,
+ 'request_depth_max': 45,
+ 'response_received_count': 163,
+ 'responses_per_minute': 152.8125,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 162,
+ 'scheduler/dequeued/memory': 162,
+ 'scheduler/enqueued': 500,
+ 'scheduler/enqueued/memory': 500,
+ 'start_time': datetime.datetime(2026, 10, 24, 23, 59, 14, 266135, tzinfo=datetime.timezone.utc)}
+2026-10-25 08:00:18 [scrapy.core.engine] INFO: Spider closed (closespider_itemcount)

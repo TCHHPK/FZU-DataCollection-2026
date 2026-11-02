@@ -1,0 +1,5 @@
+﻿method,repeat,total_seconds,average_ms
+Regex,1000,0.004246,0.004246
+BeautifulSoup,1000,2.263401,2.263401
+CSS,1000,0.244385,0.244385
+XPath,1000,0.168423,0.168423
